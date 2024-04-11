@@ -1,0 +1,37 @@
+
+.header{
+    background-color: orange;
+}
+
+.header_img{
+    height: 10rem;
+    width: 30rem;
+    border: 2px solid black;
+    border-radius: 60%;
+}
+
+.header_text{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.header_img_container{
+    text-align: center;
+}
+
+.second_header{
+    background-color: brown;
+    width: 100%;  
+    position: relative;
+    bottom: 0px;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    color: white;
+}
+
+.container{
+    padding: 10px;
+    margin: 10px;
+}
