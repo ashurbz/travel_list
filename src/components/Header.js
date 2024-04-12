@@ -1,5 +1,6 @@
 import React from "react";
 import "./common.css";
+import InputForm from "./InputForm";
 
 const Header = () => {
   return (
@@ -16,7 +17,10 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className="second_header">What Do You Need For Your Trip?</div>
+      <div className="second_header">
+        What Do You Need For Your Trip?
+        <InputForm />
+      </div>
     </div>
   );
 };

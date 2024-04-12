@@ -1,6 +1,9 @@
 
 .header{
     background-color: orange;
+    border-top: 2px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .header_img{
@@ -13,6 +16,7 @@
 .header_text{
     font-size: xx-large;
     font-weight: 700;
+    padding: 10px;
 }
 
 .header_img_container{
@@ -29,9 +33,51 @@
     font-size: x-large;
     font-weight: 500;
     color: white;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .container{
     padding: 10px;
     margin: 10px;
+}
+
+.layout{
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+}
+
+.select ,.input, .button{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+.item_container{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.item_container> span{
+    padding: 10px;
+}
+
+.item_container > button{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.items-list{
+    display: flex;
+    
 }
