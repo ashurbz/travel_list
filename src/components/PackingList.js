@@ -7,7 +7,7 @@ const PackingList = ({ items }) => {
   return (
     <div className="items-list">
       {items.map((item) => {
-        return <Item data={item} />;
+        return <Item data={item} key={item.id} />;
       })}
     </div>
   );

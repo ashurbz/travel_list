@@ -2,7 +2,7 @@ import React from "react";
 import "./common.css";
 import InputForm from "./InputForm";
 
-const Header = () => {
+const Header = ({ items, setItems }) => {
   return (
     <div className="container">
       <div className="header">
@@ -19,7 +19,7 @@ const Header = () => {
       </div>
       <div className="second_header">
         What Do You Need For Your Trip?
-        <InputForm />
+        <InputForm items={items} setItems={setItems} />
       </div>
     </div>
   );
